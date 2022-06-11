@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Todo from "./Todo";
-import Form from "./Form";
-import Title from "./Title";
+import Todo from "../Todo/Todo";
+import Form from "../Form/Form";
+import Title from "../Title/Title";
 
 const TodoList = () => {
   const [myName] = useState("Cutie");
