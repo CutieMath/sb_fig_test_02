@@ -1,5 +1,6 @@
 import React from "react";
-import Form from "./Form";
+import Form from ".";
+import "../App/App.css";
 
 export default {
   /* 👇 The title prop is optional.

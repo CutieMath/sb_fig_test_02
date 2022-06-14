@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "./Title";
-import "../App/App.css";
+import Title from ".";
+// import "../App/App.css";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
