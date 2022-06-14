@@ -17,3 +17,10 @@ MainForm.args = {
   setInputValue: () => {},
   hanleSubmit: () => {},
 };
+
+export const PopulatedForm = (args) => <Form {...args} />;
+PopulatedForm.args = {
+  inputValue: "This is a test",
+  setInputValue: () => {},
+  hanleSubmit: () => {},
+};
