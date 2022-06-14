@@ -11,15 +11,15 @@ export default {
   component: Form,
 };
 
-export const MainForm = (args) => <Form {...args} />;
-MainForm.args = {
+export const defaultState = (args) => <Form {...args} />;
+defaultState.args = {
   inputValue: "",
   setInputValue: () => {},
   hanleSubmit: () => {},
 };
 
-export const PopulatedForm = (args) => <Form {...args} />;
-PopulatedForm.args = {
+export const PopulatedState = (args) => <Form {...args} />;
+PopulatedState.args = {
   inputValue: "This is a test",
   setInputValue: () => {},
   hanleSubmit: () => {},
