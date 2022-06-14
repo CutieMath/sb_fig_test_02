@@ -1,6 +1,7 @@
 import React from "react";
 import Form from ".";
 import "../App/App.css";
+import "../index.css";
 
 export default {
   /* 👇 The title prop is optional.
@@ -18,8 +19,8 @@ defaultState.args = {
   hanleSubmit: () => {},
 };
 
-export const PopulatedState = (args) => <Form {...args} />;
-PopulatedState.args = {
+export const populatedState = (args) => <Form {...args} />;
+populatedState.args = {
   inputValue: "This is a test",
   setInputValue: () => {},
   hanleSubmit: () => {},

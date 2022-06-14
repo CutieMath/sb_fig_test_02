@@ -1,7 +1,4 @@
 import React from "react";
-import Todo from "../Todo";
-import Form from "../Form";
-import Title from "../Title";
 import TodoList from ".";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -11,12 +8,4 @@ export default {
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-export const Primary = (args) => <TodoList {...args} />;
-Primary.args = {
-  todo: {
-    id: 1,
-    text: "Test item",
-  },
-  index: 0,
-  handleDeleteTodo: () => {},
-};
+export const defaultState = (args) => <TodoList {...args} />;
